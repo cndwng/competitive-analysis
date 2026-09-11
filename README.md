@@ -60,5 +60,3 @@ Takes a comp-analysis ask and runs it through six phases:
 6. Page name guard: renderer refuses to write to a page whose name doesn't match the manifest's competitor.
 
 ## License
-
-Internal Gusto plugin. Not for public distribution.
