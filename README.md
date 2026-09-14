@@ -31,12 +31,6 @@ Takes a comp-analysis ask and runs it through six phases:
 
 **Why this matters**: earlier comp-analysis runs hit layout drift (brand on top vs left, columns at random x, sections not wrapping content), aspect crop (frames sized arbitrarily, FILL mode cropping image content), cross-page contamination (agents writing to wrong page), generic frame names (`img_0_0`), Mobbin product screens mislabeled as "Marketing — /pricing", `scalingFactor: 0.5` left over → image at half size, >1.5 MB images blank in canvas, section bounds not updated after frame resize. The renderer fixes all of these by code, not LLM choice.
 
-## Install
-
-```
-/plugin install competitive-analysis@gusto-gists
-```
-
 ## Requirements
 
 - **Figma MCP** (`plugin:figma:figma`) for block rendering
